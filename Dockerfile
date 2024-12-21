@@ -34,5 +34,7 @@ COPY . .
 # Expose the port your app runs on
 EXPOSE 3000
 
+VOLUME ["output:/app/output"]
+
 # Command to run the application
-CMD ["npm", "run","cjs_test"]
+CMD ["npm", "run", "crawl"]

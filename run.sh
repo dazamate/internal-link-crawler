@@ -1,0 +1,1 @@
+docker run -v $(pwd)/output:/app/output puppeteer-real-browser
